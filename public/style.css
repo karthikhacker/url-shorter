@@ -1,0 +1,8 @@
+.container{
+  margin:0 auto;
+}
+
+.container h2,h3,h4,p{
+  text-align: center;
+  color: #545454;
+}
