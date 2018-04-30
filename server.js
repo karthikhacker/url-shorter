@@ -7,7 +7,7 @@ const Url = require('./model/urlshort');
 const  port = process.env.PORT || 3000;
 const  app = express();
 
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds163689.mlab.com:63689/urlshort' || 'mongodb://localhost:27017/urlshort',(err) => {
+mongoose.connect('mongodb://karthik.hacker:hacker24@ds163689.mlab.com:63689/urlshort' || 'mongodb://localhost:27017/urlshort',(err) => {
    if(err){
      console.log(err);
    }else{
